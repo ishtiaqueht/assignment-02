@@ -159,6 +159,7 @@ color: #5D58EF;
     color: #FFF4DC;
 }
 .story-section{
+ background-image: url("./assets/bg.png");
  background: linear-gradient(to top,#FFF4DC,#FEB738,#FFFFFF 40%);  
 }
 
