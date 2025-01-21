@@ -159,8 +159,7 @@ color: #5D58EF;
     color: #FFF4DC;
 }
 .story-section{
- background-image: url("./assets/bg.png");
- background: linear-gradient(to top,#FFF4DC,#FEB738,#FFFFFF 40%);  
+ background:linear-gradient(to top,#FFF4DC,#FEB738,#FFFFFF 40%),url("../assets/bg.png");  
 }
 
 .story-container{
@@ -286,7 +285,7 @@ color: #5D58EF;
     .navbar{
         display: flex;
         justify-content: space-between;
-        padding: 0 80px 0 5px;
+        /* padding: 0 80px 0 5px; */
         align-items: center;
         border-bottom: 1px solid #FEA301;
     }
