@@ -91,6 +91,10 @@ color: #5D58EF;
     text-align: center;
     font-weight: bold;
     font-size: 46px;
+    margin: 0 auto;
+}
+.curriculum{
+    width: 95%;
 }
 .curriculum-card{
     display:grid;
@@ -276,7 +280,7 @@ color: #5D58EF;
     }
     .navbar{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         border-bottom: 1px solid #FEA301;
     }
@@ -299,6 +303,7 @@ color: #5D58EF;
         grid-template-columns: 1fr;
         gap: 10px;
         margin: 0 auto;
+        padding-bottom: 15px;
     }
     .story-section{
         margin: 0 auto;
