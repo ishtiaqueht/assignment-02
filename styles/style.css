@@ -158,9 +158,16 @@ color: #5D58EF;
 .arrow-icon:hover{
     color: #FFF4DC;
 }
-.story-section{
- background:linear-gradient(to top,#FFF4DC,#FEB738,#FFFFFF 40%),url("../assets/bg.png");  
-}
+.story-section {
+    background: 
+      linear-gradient(to top, #FFF4DC, #FEB738, #FFFFFF 40%), 
+      url("../assets/bg.png");
+    background-blend-mode:multiply; /* Ensures they blend properly */
+    background-size: cover;        /* Adjusts the background image size */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+  }
+  
 
 .story-container{
     display: grid;
@@ -285,7 +292,7 @@ color: #5D58EF;
     .navbar{
         display: flex;
         justify-content: space-between;
-        /* padding: 0 80px 0 5px; */
+        padding: 0 20px;
         align-items: center;
         border-bottom: 1px solid #FEA301;
     }
